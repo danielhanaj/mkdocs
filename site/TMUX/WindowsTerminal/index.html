@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A clean, responsive theme for static documentation websites that are generated with MkDocs">
+    <meta name="author" content="Christopher Simpkins">
+    <link rel="canonical" href="https://danielahnaj.github.io/mkdocs/TMUX/WindowsTerminal/">
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    
+    <title>[Protected] Windows Terminal SSH - VIM</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/dracula.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            
+              <a class="navbar-brand" href="../..">VIM</a>
+            
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">[Protected] Skróty klawiaturowe Linux</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">VIM <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../VIM/Tryb_Edycji/">[Protected] Tryb Edycji</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../VIM/Zmiana_polozenia_kursora/">[Protected] Zmiana polozenia kursora</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../VIM/Podstawowa_Edycja/">[Protected] Podstawowa Edycja</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../VIM/Szukanie_i_zastepowanie/">[Protected] Szukanie i zastepowanie</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../VIM/Edycja_wielu_plik%C3%B3w/">[Protected] Edycja wielu plików</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">TMUX <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../Polecenia/">[Protected] Podstawy tmux</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">[Protected] Windows Terminal SSH</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linux Uprawnienia <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../Linux_Uprawnienia/Odczyt_Zapis_wykonywanie/">[Protected] Odczyt Zapis i Wykonywanie</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Linux_Uprawnienia/chmod_zmiana_trybu_pliku/">[Protected] chmod zmiana trybu pliku</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../about/">[Protected] O stronie</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../Polecenia/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../../Linux_Uprawnienia/Odczyt_Zapis_wykonywanie/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#konfiguracja-ssh-pod-windows-terminal">Konfiguracja SSH pod Windows Terminal</a></li>
+            <li class="second-level"><a href="#generowanie-klucza">Generowanie klucza</a></li>
+                
+            <li class="second-level"><a href="#kopiowanie-klucza-publicznego-na-zdalny-serwer">Kopiowanie klucza publicznego na zdalny serwer:</a></li>
+                
+            <li class="second-level"><a href="#konfiguracja-windows-terminala">Konfiguracja Windows Terminala</a></li>
+                
+            <li class="second-level"><a href="#usuga-openssh-authentication-agent">Usługa OpenSSH Authentication Agent</a></li>
+                
+            <li class="second-level"><a href="#dodanie-klucza-prywatnego-do-agenta-ssh">Dodanie klucza prywatnego do agenta SSH:</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<div id="mkdocs-encrypted-content" style="display:none">4sQU96wyD0Et7YjwW2FC5A==;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;^</div>
+<div id="mkdocs-decrypted-content">
+    <form id="mkdocs-decrypt-form">
+        <h1>This content is protected with AES encryption. </h1>
+        <p>Contact your administrator for access to this page.</p>
+        <input type="password" id="mkdocs-content-password" placeholder="Provide password and press ENTER" />
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/core.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/enc-base64.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/cipher-core.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/pad-nopadding.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/md5.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/aes.js"></script>
+
+<script type="text/javascript" src="/mkdocs/assets/javascripts/decrypt-contents.js" defer></script></div>
+        
+        
+    </div>
+
+    
+      <footer class="col-md-12 text-center">
+          
+          
+            <hr>
+            <p>
+            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+            </p>
+          
+
+          
+          
+      </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = "../.."</script>
+    
+    <script src="../../js/base.js"></script>
+    <script src="../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>

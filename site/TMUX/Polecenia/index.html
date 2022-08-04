@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A clean, responsive theme for static documentation websites that are generated with MkDocs">
+    <meta name="author" content="Christopher Simpkins">
+    <link rel="canonical" href="https://danielahnaj.github.io/mkdocs/TMUX/Polecenia/">
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    
+    <title>[Protected] Podstawy tmux - VIM</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/dracula.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            
+              <a class="navbar-brand" href="../..">VIM</a>
+            
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">[Protected] Skróty klawiaturowe Linux</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">VIM <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../VIM/Tryb_Edycji/">[Protected] Tryb Edycji</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../VIM/Zmiana_polozenia_kursora/">[Protected] Zmiana polozenia kursora</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../VIM/Podstawowa_Edycja/">[Protected] Podstawowa Edycja</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../VIM/Szukanie_i_zastepowanie/">[Protected] Szukanie i zastepowanie</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../VIM/Edycja_wielu_plik%C3%B3w/">[Protected] Edycja wielu plików</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">TMUX <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li class="active">
+    <a href="./">[Protected] Podstawy tmux</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../WindowsTerminal/">[Protected] Windows Terminal SSH</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linux Uprawnienia <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../Linux_Uprawnienia/Odczyt_Zapis_wykonywanie/">[Protected] Odczyt Zapis i Wykonywanie</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../Linux_Uprawnienia/chmod_zmiana_trybu_pliku/">[Protected] chmod zmiana trybu pliku</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../about/">[Protected] O stronie</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../../VIM/Edycja_wielu_plik%C3%B3w/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../WindowsTerminal/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#polecenia-multiplexera-terminali-tmux">Polecenia multiplexera terminali tmux</a></li>
+            <li class="second-level"><a href="#skroty-przydatne-do-pracy-z-panelami">Skróty przydatne do pracy z panelami</a></li>
+                
+            <li class="second-level"><a href="#skroty-przydatne-do-pracy-z-oknami">Skróty przydatne do pracy z oknami</a></li>
+                
+        <li class="first-level "><a href="#edycja-pliku-konfiguracyjnego">Edycja pliku konfiguracyjnego</a></li>
+            <li class="second-level"><a href="#zmiana-defaultowego-prefixu-na-ctrla">Zmiana defaultowego prefixu na Ctrl+a</a></li>
+                
+            <li class="second-level"><a href="#zmiana-kolorow">Zmiana kolorów</a></li>
+                
+            <li class="second-level"><a href="#przeadowanie-pliku-konfiguracyjnego">Przeładowanie pliku konfiguracyjnego</a></li>
+                
+        <li class="first-level "><a href="#sprawdzanie-defaultowych-przypisan">Sprawdzanie defaultowych przypisań</a></li>
+        <li class="first-level "><a href="#kopiowanie-w-tmux">Kopiowanie w tmux</a></li>
+        <li class="first-level "><a href="#waczanie-trybu-myszy">Włączanie trybu myszy</a></li>
+        <li class="first-level "><a href="#udostepnianie-sesji">Udostępnianie sesji</a></li>
+        <li class="first-level "><a href="#wspodzielenie-historii-miedzy-sesjami">Współdzielenie historii między sesjami</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<div id="mkdocs-encrypted-content" style="display:none">MhkOGs6sjGq9Q4qnppTHXQ==;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;^</div>
+<div id="mkdocs-decrypted-content">
+    <form id="mkdocs-decrypt-form">
+        <h1>This content is protected with AES encryption. </h1>
+        <p>Contact your administrator for access to this page.</p>
+        <input type="password" id="mkdocs-content-password" placeholder="Provide password and press ENTER" />
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/core.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/enc-base64.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/cipher-core.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/pad-nopadding.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/md5.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/aes.js"></script>
+
+<script type="text/javascript" src="/mkdocs/assets/javascripts/decrypt-contents.js" defer></script></div>
+        
+        
+    </div>
+
+    
+      <footer class="col-md-12 text-center">
+          
+          
+            <hr>
+            <p>
+            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+            </p>
+          
+
+          
+          
+      </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = "../.."</script>
+    
+    <script src="../../js/base.js"></script>
+    <script src="../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>

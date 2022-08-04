@@ -1,0 +1,30 @@
+site_name: VIM
+site_url: https://danielahnaj.github.io/mkdocs
+site_author: Christopher Simpkins
+site_description: "A clean, responsive theme for static documentation websites that are generated with MkDocs"
+
+theme:
+  name: null
+  custom_dir: cinder
+  colorscheme: dracula
+plugins:
+  - search: {}
+  - encryptcontent:
+      global_password: "crl5$ux*9OF2"
+      remember_password: True
+      default_expire_dalay: 24
+nav:
+  - Skróty klawiaturowe Linux: index.md
+  - "VIM":
+      - "Tryb Edycji": VIM/Tryb_Edycji.md
+      - "Zmiana polozenia kursora": VIM/Zmiana_polozenia_kursora.md
+      - "Podstawowa Edycja": VIM/Podstawowa_Edycja.md
+      - "Szukanie i zastepowanie": VIM/Szukanie_i_zastepowanie.md
+      - "Edycja wielu plików": VIM/Edycja_wielu_plików.md
+  - "TMUX":
+      - "Podstawy tmux": TMUX/Polecenia.md
+      - "Windows Terminal SSH": TMUX/WindowsTerminal.md
+  - "Linux Uprawnienia":
+      - "Odczyt Zapis i Wykonywanie": Linux_Uprawnienia/Odczyt_Zapis_wykonywanie.md
+      - "chmod zmiana trybu pliku": Linux_Uprawnienia/chmod_zmiana_trybu_pliku.md
+  - O stronie: about.md
