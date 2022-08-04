@@ -9,10 +9,6 @@ theme:
   colorscheme: dracula
 plugins:
   - search: {}
-  - encryptcontent:
-      global_password: "crl5$ux*9OF2"
-      remember_password: True
-      default_expire_dalay: 24
 nav:
   - Skróty klawiaturowe Linux: index.md
   - "VIM":
