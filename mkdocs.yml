@@ -1,4 +1,4 @@
-site_name: VIM
+site_name: mkdocs
 site_url: https://danielhanaj.github.io/mkdocs
 site_author: Christopher Simpkins
 site_description: "A clean, responsive theme for static documentation websites that are generated with MkDocs"
